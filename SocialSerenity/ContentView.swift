@@ -9,13 +9,33 @@ import SwiftUI
 //THIS IS A CHANGE
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+     
+        NavigationStack{
+            VStack{
+                Text("Welcome!")
+                    .padding(.top, 100.0)
+                Text("Name")
+                    .padding(.top, 100.0)
+                TextField("Insert Name Here", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                    .padding(.leading, 86.0)
+                    .frame(width: 300.0, height: 50.0)
+                    .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+                Text("Start Date")
+                    .padding(.top, 61.0)
+                DatePicker(selection: /*@START_MENU_TOKEN@*/.constant(Date())/*@END_MENU_TOKEN@*/, label: { Text("Start Date") })
+                    .padding(.horizontal, 38.0)
+                NavigationLink(destination: HomePage()) {
+                Text("Next")
+                }
+                .padding(.top, 100.0)
+
+                
+                Spacer()
+                
+            }
+//        Vstack ⬆️
         }
-        .padding()
+//        Nav stack ⬆️
     }
 }
 
