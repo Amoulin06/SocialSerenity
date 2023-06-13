@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct HomePage: View {
+    
+    @State private var name = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            /*@START_MENU_TOKEN@*/Text("Content")/*@END_MENU_TOKEN@*/
+        }
+//        navstack
     }
 }
 

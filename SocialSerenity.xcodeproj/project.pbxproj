@@ -12,6 +12,55 @@
 		BD12653F2A38BBA900324C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD12653E2A38BBA900324C7C /* Assets.xcassets */; };
 		BD1265422A38BBA900324C7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1265412A38BBA900324C7C /* Preview Assets.xcassets */; };
 		BD1265492A38C1E600324C7C /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265482A38C1E600324C7C /* HomePage.swift */; };
+		BD12654B2A38D16C00324C7C /* Happy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12654A2A38D16C00324C7C /* Happy.swift */; };
+		BD12654D2A38D17800324C7C /* Sad.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12654C2A38D17800324C7C /* Sad.swift */; };
+		BD12654F2A38D18800324C7C /* Disgusted.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12654E2A38D18800324C7C /* Disgusted.swift */; };
+		BD1265512A38D19600324C7C /* Angry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265502A38D19600324C7C /* Angry.swift */; };
+		BD1265532A38D1B000324C7C /* Fearful.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265522A38D1B000324C7C /* Fearful.swift */; };
+		BD1265552A38D1BE00324C7C /* Bad.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265542A38D1BE00324C7C /* Bad.swift */; };
+		BD1265572A38D1D200324C7C /* Surprised.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265562A38D1D200324C7C /* Surprised.swift */; };
+		BD1265592A38D31700324C7C /* Happy.Trusting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265582A38D31700324C7C /* Happy.Trusting.swift */; };
+		BD12655B2A38D32600324C7C /* Peaceful.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12655A2A38D32600324C7C /* Peaceful.swift */; };
+		BD12655D2A38D33D00324C7C /* Happy.Accepted.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12655C2A38D33D00324C7C /* Happy.Accepted.swift */; };
+		BD12655F2A38D34700324C7C /* Happy.Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12655E2A38D34700324C7C /* Happy.Content.swift */; };
+		BD1265612A38D35200324C7C /* Happy.Playful.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265602A38D35200324C7C /* Happy.Playful.swift */; };
+		BD1265632A38D36100324C7C /* Happy.Proud.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265622A38D36100324C7C /* Happy.Proud.swift */; };
+		BD1265652A38D38600324C7C /* Sad.Lonely.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265642A38D38600324C7C /* Sad.Lonely.swift */; };
+		BD1265672A38D39D00324C7C /* Sad.Vulnerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265662A38D39D00324C7C /* Sad.Vulnerable.swift */; };
+		BD1265692A38D3AB00324C7C /* Sad.Despair.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265682A38D3AB00324C7C /* Sad.Despair.swift */; };
+		BD12656B2A38D3BA00324C7C /* Sad.Guilty.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12656A2A38D3BA00324C7C /* Sad.Guilty.swift */; };
+		BD12656D2A38D3CF00324C7C /* Sad.Depressed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12656C2A38D3CF00324C7C /* Sad.Depressed.swift */; };
+		BD12656F2A38D3D900324C7C /* Sad.Hurt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12656E2A38D3D900324C7C /* Sad.Hurt.swift */; };
+		BD1265712A38D48700324C7C /* Disgusted.Disappointed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265702A38D48700324C7C /* Disgusted.Disappointed.swift */; };
+		BD1265732A38D4A200324C7C /* Disgusted.disaproving.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265722A38D4A200324C7C /* Disgusted.disaproving.swift */; };
+		BD1265752A38D4B600324C7C /* Disgusted.Repelled.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265742A38D4B600324C7C /* Disgusted.Repelled.swift */; };
+		BD1265772A38D4CB00324C7C /* Disgusted.Embarassed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265762A38D4CB00324C7C /* Disgusted.Embarassed.swift */; };
+		BD1265792A38D4DD00324C7C /* Disgusted.Judgemental.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265782A38D4DD00324C7C /* Disgusted.Judgemental.swift */; };
+		BD12657B2A38D4E500324C7C /* Disgusted.Horrified.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12657A2A38D4E500324C7C /* Disgusted.Horrified.swift */; };
+		BD12657D2A38D58D00324C7C /* Angry.Humiliated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12657C2A38D58D00324C7C /* Angry.Humiliated.swift */; };
+		BD12657F2A38D59700324C7C /* Angry.Aggressive.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12657E2A38D59700324C7C /* Angry.Aggressive.swift */; };
+		BD1265812A38D5A500324C7C /* Angry.Critical.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265802A38D5A500324C7C /* Angry.Critical.swift */; };
+		BD1265832A38D5B600324C7C /* Angry.Furious.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265822A38D5B600324C7C /* Angry.Furious.swift */; };
+		BD1265852A38D5C000324C7C /* Angry.Annoyed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265842A38D5C000324C7C /* Angry.Annoyed.swift */; };
+		BD1265872A38D5CE00324C7C /* Angry.Distant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265862A38D5CE00324C7C /* Angry.Distant.swift */; };
+		BD1265892A38D5EA00324C7C /* Fearful.Anxious.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265882A38D5EA00324C7C /* Fearful.Anxious.swift */; };
+		BD12658B2A38D5F700324C7C /* Fearful.Scared.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12658A2A38D5F700324C7C /* Fearful.Scared.swift */; };
+		BD12658D2A38D62500324C7C /* Fearful.Insecure.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12658C2A38D62500324C7C /* Fearful.Insecure.swift */; };
+		BD12658F2A38D65000324C7C /* Fearful.Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12658E2A38D65000324C7C /* Fearful.Weak.swift */; };
+		BD1265912A38D65C00324C7C /* Fearful.Rejected.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265902A38D65C00324C7C /* Fearful.Rejected.swift */; };
+		BD1265932A38D66B00324C7C /* Fearful.Threatened.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265922A38D66B00324C7C /* Fearful.Threatened.swift */; };
+		BD1265952A38D6F500324C7C /* Bad.Bored.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265942A38D6F500324C7C /* Bad.Bored.swift */; };
+		BD1265972A38D70800324C7C /* Bad.Busy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265962A38D70800324C7C /* Bad.Busy.swift */; };
+		BD1265992A38D71200324C7C /* Bad.Stressed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265982A38D71200324C7C /* Bad.Stressed.swift */; };
+		BD12659B2A38D71A00324C7C /* Bad.Tired.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12659A2A38D71A00324C7C /* Bad.Tired.swift */; };
+		BD12659D2A38D72600324C7C /* Bad.Overwhelmed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12659C2A38D72600324C7C /* Bad.Overwhelmed.swift */; };
+		BD12659F2A38D73100324C7C /* Bad.Pressured.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12659E2A38D73100324C7C /* Bad.Pressured.swift */; };
+		BD1265A12A38D75900324C7C /* Surprised.Amazed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265A02A38D75900324C7C /* Surprised.Amazed.swift */; };
+		BD1265A32A38D76300324C7C /* Surprised.Confused.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265A22A38D76300324C7C /* Surprised.Confused.swift */; };
+		BD1265A52A38D77500324C7C /* Surprised.Excited.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265A42A38D77500324C7C /* Surprised.Excited.swift */; };
+		BD1265A72A38D78000324C7C /* Surprised.Startled.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265A62A38D78000324C7C /* Surprised.Startled.swift */; };
+		BD1265A92A38D78D00324C7C /* Surprised.Energetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265A82A38D78D00324C7C /* Surprised.Energetic.swift */; };
+		BD1265AB2A38D7A300324C7C /* Surprised.Perplexed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1265AA2A38D7A300324C7C /* Surprised.Perplexed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +70,55 @@
 		BD12653E2A38BBA900324C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD1265412A38BBA900324C7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD1265482A38C1E600324C7C /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		BD12654A2A38D16C00324C7C /* Happy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy.swift; sourceTree = "<group>"; };
+		BD12654C2A38D17800324C7C /* Sad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sad.swift; sourceTree = "<group>"; };
+		BD12654E2A38D18800324C7C /* Disgusted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disgusted.swift; sourceTree = "<group>"; };
+		BD1265502A38D19600324C7C /* Angry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angry.swift; sourceTree = "<group>"; };
+		BD1265522A38D1B000324C7C /* Fearful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fearful.swift; sourceTree = "<group>"; };
+		BD1265542A38D1BE00324C7C /* Bad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bad.swift; sourceTree = "<group>"; };
+		BD1265562A38D1D200324C7C /* Surprised.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surprised.swift; sourceTree = "<group>"; };
+		BD1265582A38D31700324C7C /* Happy.Trusting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy.Trusting.swift; sourceTree = "<group>"; };
+		BD12655A2A38D32600324C7C /* Peaceful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peaceful.swift; sourceTree = "<group>"; };
+		BD12655C2A38D33D00324C7C /* Happy.Accepted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy.Accepted.swift; sourceTree = "<group>"; };
+		BD12655E2A38D34700324C7C /* Happy.Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy.Content.swift; sourceTree = "<group>"; };
+		BD1265602A38D35200324C7C /* Happy.Playful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy.Playful.swift; sourceTree = "<group>"; };
+		BD1265622A38D36100324C7C /* Happy.Proud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy.Proud.swift; sourceTree = "<group>"; };
+		BD1265642A38D38600324C7C /* Sad.Lonely.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sad.Lonely.swift; sourceTree = "<group>"; };
+		BD1265662A38D39D00324C7C /* Sad.Vulnerable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sad.Vulnerable.swift; sourceTree = "<group>"; };
+		BD1265682A38D3AB00324C7C /* Sad.Despair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sad.Despair.swift; sourceTree = "<group>"; };
+		BD12656A2A38D3BA00324C7C /* Sad.Guilty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sad.Guilty.swift; sourceTree = "<group>"; };
+		BD12656C2A38D3CF00324C7C /* Sad.Depressed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sad.Depressed.swift; sourceTree = "<group>"; };
+		BD12656E2A38D3D900324C7C /* Sad.Hurt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sad.Hurt.swift; sourceTree = "<group>"; };
+		BD1265702A38D48700324C7C /* Disgusted.Disappointed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disgusted.Disappointed.swift; sourceTree = "<group>"; };
+		BD1265722A38D4A200324C7C /* Disgusted.disaproving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disgusted.disaproving.swift; sourceTree = "<group>"; };
+		BD1265742A38D4B600324C7C /* Disgusted.Repelled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disgusted.Repelled.swift; sourceTree = "<group>"; };
+		BD1265762A38D4CB00324C7C /* Disgusted.Embarassed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disgusted.Embarassed.swift; sourceTree = "<group>"; };
+		BD1265782A38D4DD00324C7C /* Disgusted.Judgemental.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disgusted.Judgemental.swift; sourceTree = "<group>"; };
+		BD12657A2A38D4E500324C7C /* Disgusted.Horrified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disgusted.Horrified.swift; sourceTree = "<group>"; };
+		BD12657C2A38D58D00324C7C /* Angry.Humiliated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angry.Humiliated.swift; sourceTree = "<group>"; };
+		BD12657E2A38D59700324C7C /* Angry.Aggressive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angry.Aggressive.swift; sourceTree = "<group>"; };
+		BD1265802A38D5A500324C7C /* Angry.Critical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angry.Critical.swift; sourceTree = "<group>"; };
+		BD1265822A38D5B600324C7C /* Angry.Furious.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angry.Furious.swift; sourceTree = "<group>"; };
+		BD1265842A38D5C000324C7C /* Angry.Annoyed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angry.Annoyed.swift; sourceTree = "<group>"; };
+		BD1265862A38D5CE00324C7C /* Angry.Distant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angry.Distant.swift; sourceTree = "<group>"; };
+		BD1265882A38D5EA00324C7C /* Fearful.Anxious.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fearful.Anxious.swift; sourceTree = "<group>"; };
+		BD12658A2A38D5F700324C7C /* Fearful.Scared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fearful.Scared.swift; sourceTree = "<group>"; };
+		BD12658C2A38D62500324C7C /* Fearful.Insecure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fearful.Insecure.swift; sourceTree = "<group>"; };
+		BD12658E2A38D65000324C7C /* Fearful.Weak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fearful.Weak.swift; sourceTree = "<group>"; };
+		BD1265902A38D65C00324C7C /* Fearful.Rejected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fearful.Rejected.swift; sourceTree = "<group>"; };
+		BD1265922A38D66B00324C7C /* Fearful.Threatened.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fearful.Threatened.swift; sourceTree = "<group>"; };
+		BD1265942A38D6F500324C7C /* Bad.Bored.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bad.Bored.swift; sourceTree = "<group>"; };
+		BD1265962A38D70800324C7C /* Bad.Busy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bad.Busy.swift; sourceTree = "<group>"; };
+		BD1265982A38D71200324C7C /* Bad.Stressed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bad.Stressed.swift; sourceTree = "<group>"; };
+		BD12659A2A38D71A00324C7C /* Bad.Tired.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bad.Tired.swift; sourceTree = "<group>"; };
+		BD12659C2A38D72600324C7C /* Bad.Overwhelmed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bad.Overwhelmed.swift; sourceTree = "<group>"; };
+		BD12659E2A38D73100324C7C /* Bad.Pressured.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bad.Pressured.swift; sourceTree = "<group>"; };
+		BD1265A02A38D75900324C7C /* Surprised.Amazed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surprised.Amazed.swift; sourceTree = "<group>"; };
+		BD1265A22A38D76300324C7C /* Surprised.Confused.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surprised.Confused.swift; sourceTree = "<group>"; };
+		BD1265A42A38D77500324C7C /* Surprised.Excited.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surprised.Excited.swift; sourceTree = "<group>"; };
+		BD1265A62A38D78000324C7C /* Surprised.Startled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surprised.Startled.swift; sourceTree = "<group>"; };
+		BD1265A82A38D78D00324C7C /* Surprised.Energetic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surprised.Energetic.swift; sourceTree = "<group>"; };
+		BD1265AA2A38D7A300324C7C /* Surprised.Perplexed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surprised.Perplexed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +154,55 @@
 			children = (
 				BD12653A2A38BBA700324C7C /* SocialSerenityApp.swift */,
 				BD12653C2A38BBA700324C7C /* ContentView.swift */,
+				BD12654A2A38D16C00324C7C /* Happy.swift */,
+				BD12654C2A38D17800324C7C /* Sad.swift */,
+				BD12654E2A38D18800324C7C /* Disgusted.swift */,
+				BD1265502A38D19600324C7C /* Angry.swift */,
+				BD1265522A38D1B000324C7C /* Fearful.swift */,
+				BD1265542A38D1BE00324C7C /* Bad.swift */,
+				BD1265562A38D1D200324C7C /* Surprised.swift */,
+				BD1265582A38D31700324C7C /* Happy.Trusting.swift */,
+				BD12655A2A38D32600324C7C /* Peaceful.swift */,
+				BD12655C2A38D33D00324C7C /* Happy.Accepted.swift */,
+				BD12655E2A38D34700324C7C /* Happy.Content.swift */,
+				BD1265602A38D35200324C7C /* Happy.Playful.swift */,
+				BD1265622A38D36100324C7C /* Happy.Proud.swift */,
+				BD1265642A38D38600324C7C /* Sad.Lonely.swift */,
+				BD1265662A38D39D00324C7C /* Sad.Vulnerable.swift */,
+				BD1265682A38D3AB00324C7C /* Sad.Despair.swift */,
+				BD12656A2A38D3BA00324C7C /* Sad.Guilty.swift */,
+				BD12656C2A38D3CF00324C7C /* Sad.Depressed.swift */,
+				BD12656E2A38D3D900324C7C /* Sad.Hurt.swift */,
+				BD1265702A38D48700324C7C /* Disgusted.Disappointed.swift */,
+				BD1265722A38D4A200324C7C /* Disgusted.disaproving.swift */,
+				BD1265742A38D4B600324C7C /* Disgusted.Repelled.swift */,
+				BD1265762A38D4CB00324C7C /* Disgusted.Embarassed.swift */,
+				BD1265782A38D4DD00324C7C /* Disgusted.Judgemental.swift */,
+				BD12657A2A38D4E500324C7C /* Disgusted.Horrified.swift */,
+				BD12657C2A38D58D00324C7C /* Angry.Humiliated.swift */,
+				BD12657E2A38D59700324C7C /* Angry.Aggressive.swift */,
+				BD1265802A38D5A500324C7C /* Angry.Critical.swift */,
+				BD1265822A38D5B600324C7C /* Angry.Furious.swift */,
+				BD1265842A38D5C000324C7C /* Angry.Annoyed.swift */,
+				BD1265862A38D5CE00324C7C /* Angry.Distant.swift */,
+				BD1265882A38D5EA00324C7C /* Fearful.Anxious.swift */,
+				BD12658A2A38D5F700324C7C /* Fearful.Scared.swift */,
+				BD12658C2A38D62500324C7C /* Fearful.Insecure.swift */,
+				BD12658E2A38D65000324C7C /* Fearful.Weak.swift */,
+				BD1265902A38D65C00324C7C /* Fearful.Rejected.swift */,
+				BD1265922A38D66B00324C7C /* Fearful.Threatened.swift */,
+				BD1265942A38D6F500324C7C /* Bad.Bored.swift */,
+				BD1265962A38D70800324C7C /* Bad.Busy.swift */,
+				BD1265982A38D71200324C7C /* Bad.Stressed.swift */,
+				BD12659A2A38D71A00324C7C /* Bad.Tired.swift */,
+				BD12659C2A38D72600324C7C /* Bad.Overwhelmed.swift */,
+				BD12659E2A38D73100324C7C /* Bad.Pressured.swift */,
+				BD1265A02A38D75900324C7C /* Surprised.Amazed.swift */,
+				BD1265A22A38D76300324C7C /* Surprised.Confused.swift */,
+				BD1265A42A38D77500324C7C /* Surprised.Excited.swift */,
+				BD1265A62A38D78000324C7C /* Surprised.Startled.swift */,
+				BD1265A82A38D78D00324C7C /* Surprised.Energetic.swift */,
+				BD1265AA2A38D7A300324C7C /* Surprised.Perplexed.swift */,
 				BD12653E2A38BBA900324C7C /* Assets.xcassets */,
 				BD1265402A38BBA900324C7C /* Preview Content */,
 			);
@@ -140,9 +287,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1265812A38D5A500324C7C /* Angry.Critical.swift in Sources */,
+				BD1265972A38D70800324C7C /* Bad.Busy.swift in Sources */,
+				BD1265772A38D4CB00324C7C /* Disgusted.Embarassed.swift in Sources */,
+				BD1265A92A38D78D00324C7C /* Surprised.Energetic.swift in Sources */,
+				BD12659F2A38D73100324C7C /* Bad.Pressured.swift in Sources */,
+				BD1265A52A38D77500324C7C /* Surprised.Excited.swift in Sources */,
+				BD12654B2A38D16C00324C7C /* Happy.swift in Sources */,
+				BD12656D2A38D3CF00324C7C /* Sad.Depressed.swift in Sources */,
+				BD1265572A38D1D200324C7C /* Surprised.swift in Sources */,
+				BD12655B2A38D32600324C7C /* Peaceful.swift in Sources */,
+				BD1265752A38D4B600324C7C /* Disgusted.Repelled.swift in Sources */,
+				BD1265A32A38D76300324C7C /* Surprised.Confused.swift in Sources */,
+				BD1265892A38D5EA00324C7C /* Fearful.Anxious.swift in Sources */,
+				BD12658F2A38D65000324C7C /* Fearful.Weak.swift in Sources */,
+				BD12655D2A38D33D00324C7C /* Happy.Accepted.swift in Sources */,
+				BD1265932A38D66B00324C7C /* Fearful.Threatened.swift in Sources */,
+				BD12654D2A38D17800324C7C /* Sad.swift in Sources */,
 				BD12653D2A38BBA700324C7C /* ContentView.swift in Sources */,
+				BD1265952A38D6F500324C7C /* Bad.Bored.swift in Sources */,
+				BD1265832A38D5B600324C7C /* Angry.Furious.swift in Sources */,
+				BD1265A72A38D78000324C7C /* Surprised.Startled.swift in Sources */,
+				BD1265632A38D36100324C7C /* Happy.Proud.swift in Sources */,
+				BD12657D2A38D58D00324C7C /* Angry.Humiliated.swift in Sources */,
 				BD1265492A38C1E600324C7C /* HomePage.swift in Sources */,
+				BD1265A12A38D75900324C7C /* Surprised.Amazed.swift in Sources */,
+				BD1265912A38D65C00324C7C /* Fearful.Rejected.swift in Sources */,
+				BD12654F2A38D18800324C7C /* Disgusted.swift in Sources */,
+				BD1265532A38D1B000324C7C /* Fearful.swift in Sources */,
+				BD1265792A38D4DD00324C7C /* Disgusted.Judgemental.swift in Sources */,
+				BD12659B2A38D71A00324C7C /* Bad.Tired.swift in Sources */,
+				BD1265712A38D48700324C7C /* Disgusted.Disappointed.swift in Sources */,
+				BD1265612A38D35200324C7C /* Happy.Playful.swift in Sources */,
+				BD12656F2A38D3D900324C7C /* Sad.Hurt.swift in Sources */,
+				BD12656B2A38D3BA00324C7C /* Sad.Guilty.swift in Sources */,
+				BD12657B2A38D4E500324C7C /* Disgusted.Horrified.swift in Sources */,
+				BD1265672A38D39D00324C7C /* Sad.Vulnerable.swift in Sources */,
+				BD12658B2A38D5F700324C7C /* Fearful.Scared.swift in Sources */,
+				BD12655F2A38D34700324C7C /* Happy.Content.swift in Sources */,
+				BD12659D2A38D72600324C7C /* Bad.Overwhelmed.swift in Sources */,
+				BD12658D2A38D62500324C7C /* Fearful.Insecure.swift in Sources */,
 				BD12653B2A38BBA700324C7C /* SocialSerenityApp.swift in Sources */,
+				BD1265652A38D38600324C7C /* Sad.Lonely.swift in Sources */,
+				BD1265592A38D31700324C7C /* Happy.Trusting.swift in Sources */,
+				BD1265552A38D1BE00324C7C /* Bad.swift in Sources */,
+				BD1265AB2A38D7A300324C7C /* Surprised.Perplexed.swift in Sources */,
+				BD1265852A38D5C000324C7C /* Angry.Annoyed.swift in Sources */,
+				BD12657F2A38D59700324C7C /* Angry.Aggressive.swift in Sources */,
+				BD1265872A38D5CE00324C7C /* Angry.Distant.swift in Sources */,
+				BD1265512A38D19600324C7C /* Angry.swift in Sources */,
+				BD1265732A38D4A200324C7C /* Disgusted.disaproving.swift in Sources */,
+				BD1265992A38D71200324C7C /* Bad.Stressed.swift in Sources */,
+				BD1265692A38D3AB00324C7C /* Sad.Despair.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
-//THIS IS A CHANGE
+
 struct ContentView: View {
+    @State private var name = ""
+
+    
     var body: some View {
      
         NavigationStack{
@@ -16,7 +19,7 @@ struct ContentView: View {
                     .padding(.top, 100.0)
                 Text("Name")
                     .padding(.top, 100.0)
-                TextField("Insert Name Here", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                TextField("Insert Name Here", text: $name )
                     .padding(.leading, 86.0)
                     .frame(width: 300.0, height: 50.0)
                     .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
