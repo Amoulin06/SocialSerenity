@@ -20,10 +20,10 @@ struct ContentView: View {
                     .padding(.leading, 86.0)
                     .frame(width: 300.0, height: 50.0)
                     .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
-                Text("Start Date")
+                Text("Today's Date")
                     .padding(.top, 61.0)
-                DatePicker(selection: /*@START_MENU_TOKEN@*/.constant(Date())/*@END_MENU_TOKEN@*/, label: { Text("Start Date") })
-                    .padding(.horizontal, 38.0)
+                DatePicker(selection: /*@START_MENU_TOKEN@*/.constant(Date())/*@END_MENU_TOKEN@*/, label: { })
+                    .padding(.trailing, 82.0)
                 NavigationLink(destination: HomePage()) {
                 Text("Next")
                 }
